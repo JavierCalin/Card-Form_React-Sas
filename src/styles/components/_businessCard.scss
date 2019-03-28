@@ -1,5 +1,6 @@
 .businessCard {
   background: url("../images/background.png") center center;
+  background-color: #48333a;
   position: relative;
   font-family: $secondaryfont;
   font-size: $font-size-xxs;
@@ -46,7 +47,6 @@
     &:before {
       content: "";
       position: absolute;
-      background: url("../images/cabify-logo.svg") center center no-repeat;
       width: 77px;
       height: 26px;
       top: calc(50% - 13px);
@@ -74,7 +74,6 @@
       right: $spacing*4;
       height: 15px;
       width: 12px;
-      background: url("../images/cabify-logo-min.svg") center center no-repeat;
       background-size: contain;
     }
 

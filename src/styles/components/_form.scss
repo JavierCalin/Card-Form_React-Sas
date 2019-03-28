@@ -23,14 +23,6 @@ input:-webkit-autofill {
       }
     }
     
-    &.focus {
-      border-color: $color-focus;
-      
-      .input input {
-        color: $color-main;
-      }
-    }
-    
     &.disabled {
       border-bottom: dotted 1px $color-positive-lighter;
       .input input {

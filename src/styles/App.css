@@ -277,6 +277,7 @@ a {
 
 .businessCard {
   background: url("../images/background.png") center center;
+  background-color: #48333a;
   position: relative;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 8px;
@@ -290,7 +291,7 @@ a {
     right: 16px;
     width: 80px;
     height: 64px;
-    background-color: #7350FF; }
+    background-color: #a22e55; }
     .businessCard-badge-logo {
       position: absolute;
       margin: 10px;
@@ -304,7 +305,7 @@ a {
     margin-top: 88px; }
   .businessCard-cardBack {
     position: relative;
-    background-color: #4C58A7;
+    background-color: #a22e55;
     width: 271px;
     height: 171px;
     margin-left: 8px;
@@ -313,7 +314,6 @@ a {
     .businessCard-cardBack:before {
       content: "";
       position: absolute;
-      background: url("../images/cabify-logo.svg") center center no-repeat;
       width: 77px;
       height: 26px;
       top: calc(50% - 13px);
@@ -338,12 +338,11 @@ a {
       right: 32px;
       height: 15px;
       width: 12px;
-      background: url("../images/cabify-logo-min.svg") center center no-repeat;
       background-size: contain; }
     .businessCard-cardFront-bottom {
       padding-right: 24px; }
     .businessCard-cardFront-title {
-      color: #4C58A7;
+      color: #a22e55;
       font-size: 13px;
       line-height: 24px; }
     .businessCard-cardFront-subtitle {
@@ -394,10 +393,6 @@ input:-webkit-autofill {
   transition: all 0.3s ease; }
   .formField-input.active .input label {
     top: 0; }
-  .formField-input.focus {
-    border-color: #7350FF; }
-    .formField-input.focus .input input {
-      color: #7350FF; }
   .formField-input.disabled {
     border-bottom: dotted 1px #A7A7B3; }
     .formField-input.disabled .input input {
@@ -451,12 +446,12 @@ input:-webkit-autofill {
     opacity: 0.32;
     pointer-events: none; }
   .button-primary {
-    background-color: #7350FF;
+    background-color: #a22e55;
     color: #FFFFFF; }
     .button-primary:active {
-      background-color: #6645FF; }
+      background-color: #751435; }
     .button-primary:hover {
-      background-color: #7F5AFF; }
+      background-color: #bd4c72; }
   .button-full {
     display: block;
     width: 100%; }

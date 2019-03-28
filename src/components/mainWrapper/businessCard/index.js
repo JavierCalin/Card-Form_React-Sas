@@ -1,13 +1,7 @@
 import React from 'react'
-import cabifyLogo from './../../../images/cabify-logo.svg';
 
 const BusinessCard = ({cityCode, email, job, location, name, phone, web})=>(
         <article className="businessCard col col6">
-          <figure className="businessCard-badge">
-            <a className="businessCard-badge-logo" href="http://www.cabify.com">
-              <img src={cabifyLogo} alt="Cabify" />
-            </a>
-          </figure>
           <h1 className="title-main">Request your business card</h1>
           <div className="businessCard-cards">
             <div className="businessCard-cardBack" />
